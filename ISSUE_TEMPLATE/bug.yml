@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a defect or regression
+title: "[Bug]: "
+labels: []
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest reliable reproduction you can.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, runtime, deployment environment, device, or other relevant context.
+  - type: checkboxes
+    id: sensitive
+    attributes:
+      label: Data safety
+      options:
+        - label: I have not included passwords, API keys, secrets, or unnecessary client-sensitive data.
+          required: true

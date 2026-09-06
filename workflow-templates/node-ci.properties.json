@@ -1,0 +1,6 @@
+{
+  "name": "LineZero Client Node CI",
+  "description": "Install, test, lint, and build a Node.js client repository.",
+  "iconName": "octicon mark-github",
+  "categories": ["JavaScript", "TypeScript", "Node"]
+}

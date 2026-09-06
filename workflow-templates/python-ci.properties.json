@@ -1,0 +1,6 @@
+{
+  "name": "LineZero Client Python CI",
+  "description": "Install and test a Python client repository.",
+  "iconName": "octicon mark-github",
+  "categories": ["Python"]
+}

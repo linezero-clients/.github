@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive or security-related issue
+    url: https://linezero.io
+    about: Do not post secrets or sensitive client information in a public issue. Contact LineZero directly.
